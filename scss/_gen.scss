@@ -5,6 +5,7 @@ body{
     background-position: top;
     background-repeat: no-repeat;
     margin: 0px;
+    font-family: 'Dancing Script', cursive;
     @include mq-500px{
         background-color: black;
         background-image: url(../img/fondopc.jpg);
