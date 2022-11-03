@@ -69,4 +69,13 @@ main {
            text-align: center;
         }
     }
+    iframe{
+        width: 90%;
+        margin: 20px 0px;
+        width: 90%;
+        padding: 10px;
+        border-radius: 20px;
+        border: $bordes;
+        background-color: $color1;
+    }
 }
