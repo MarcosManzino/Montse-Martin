@@ -4,3 +4,24 @@ $color3: rgba(0, 0, 0, 0.700);
 $bordes: solid black 2px;
 
 
+@mixin mq-500px {
+    @media (min-width: 500px) {
+        @content;
+    }
+}
+
+@mixin mq-900px {
+    @media (min-width: 900px) {
+        @content;
+    }
+}
+@mixin mq-1000px {
+    @media (min-width: 1000px) {
+        @content;
+    }
+}
+@mixin mq-1300px {
+    @media (min-width: 1300px) {
+        @content;
+    }
+}

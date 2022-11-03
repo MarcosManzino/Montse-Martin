@@ -51,6 +51,11 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   margin: 0px; }
+  @media (min-width: 500px) {
+    body {
+      background-color: black;
+      background-image: url(../img/fondopc.jpg);
+      background-size: 200vh; } }
 
 main {
   display: flex;
@@ -59,10 +64,28 @@ main {
   justify-content: center;
   align-items: center;
   color: white; }
-  main img {
-    width: 90%;
-    border: solid rgba(51, 0, 0, 0.884) 5px;
-    border-radius: 20px; }
+  main .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    main .img img {
+      width: 90%;
+      max-width: 600px;
+      border: solid rgba(51, 0, 0, 0.884) 5px;
+      border-radius: 20px;
+      margin: 5px; }
+      @media (min-width: 1000px) {
+        main .img img {
+          display: inline-block;
+          max-width: 400px; } }
+    main .img .img1 {
+      display: none; }
+      @media (min-width: 1000px) {
+        main .img .img1 {
+          display: inline-block; } }
   main .fecha {
     display: flex;
     flex-direction: column;
@@ -73,21 +96,19 @@ main {
     main .fecha .fondo {
       padding: 10px;
       border-radius: 20px;
-      border: solid black 2px;
       background-color: rgba(51, 0, 0, 0.884); }
   main .contador {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
-    border: solid black 2px; }
+    justify-content: center; }
     main .contador .simply-section div {
       display: flex;
       flex-direction: column-reverse;
       align-items: center;
-      margin: 5px;
+      margin: 2px;
       background-color: rgba(51, 0, 0, 0.884);
-      width: 65px;
+      width: 70px;
       border: solid black 2px;
       border-radius: 10px; }
   main .texto {
@@ -96,7 +117,8 @@ main {
     padding: 10px;
     border-radius: 20px;
     border: solid black 2px;
-    background-color: rgba(51, 0, 0, 0.884); }
+    background-color: rgba(51, 0, 0, 0.884);
+    max-width: 600px; }
     main .texto div {
       display: flex;
       flex-direction: column;
@@ -104,6 +126,45 @@ main {
       justify-content: center;
       align-items: center;
       text-align: center; }
+    @media (min-width: 900px) {
+      main .texto {
+        display: none; } }
+  main .texto2 {
+    display: none; }
+  @media (min-width: 1300px) {
+    main .teximg {
+      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; }
+      main .teximg img {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 25%;
+        border: solid rgba(51, 0, 0, 0.884) 5px;
+        border-radius: 20px; } }
+  main .px1300 {
+    display: none; }
+  @media (min-width: 900px) {
+    main .texto2 {
+      display: inline-block;
+      background-image: url(../img/imgg2.jpeg);
+      background-size: 100%;
+      height: 600px;
+      width: 600px;
+      border-radius: 20px;
+      border: solid rgba(51, 0, 0, 0.884) 5px;
+      margin: 10px 0px; }
+      main .texto2 div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40% 20px;
+        background-color: rgba(51, 0, 0, 0.473);
+        padding: 10px;
+        border-radius: 20px;
+        border: solid black 2px; } }
   main iframe {
     width: 90%;
     margin: 20px 0px;
@@ -111,7 +172,8 @@ main {
     padding: 10px;
     border-radius: 20px;
     border: solid black 2px;
-    background-color: rgba(51, 0, 0, 0.884); }
+    background-color: rgba(51, 0, 0, 0.884);
+    max-width: 600px; }
 
 footer {
   background-color: rgba(51, 0, 0, 0.884);
