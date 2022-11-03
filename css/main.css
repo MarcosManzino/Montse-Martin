@@ -1,0 +1,126 @@
+@keyframes header {
+  0% {
+    height: 100vh; }
+  5% {
+    height: 95vh; }
+  10% {
+    height: 90vh; }
+  15% {
+    height: 85vh; }
+  20% {
+    height: 80vh; }
+  25% {
+    height: 75vh; }
+  30% {
+    height: 70vh; }
+  35% {
+    height: 65vh; }
+  40% {
+    height: 60vh; }
+  45% {
+    height: 55vh; }
+  50% {
+    height: 50vh; }
+  55% {
+    height: 45vh; }
+  60% {
+    height: 40vh; }
+  65% {
+    height: 35vh; }
+  70% {
+    height: 30vh; }
+  75% {
+    height: 25vh; }
+  80% {
+    height: 20vh;
+    background-image: none; }
+  85% {
+    height: 15vh;
+    background-image: none; }
+  90% {
+    height: 10vh;
+    background-image: none; }
+  100% {
+    height: 10vh;
+    background-image: none; } }
+
+body {
+  background-image: url(../img/fondo.jpeg);
+  background-size: 60vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin: 0px; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+  main img {
+    width: 90%;
+    border: solid rgba(51, 0, 0, 0.884) 5px;
+    border-radius: 20px; }
+  main .fecha {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px; }
+    main .fecha .fondo {
+      padding: 10px;
+      border-radius: 20px;
+      border: solid black 2px;
+      background-color: rgba(51, 0, 0, 0.884); }
+  main .contador {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    border: solid black 2px; }
+    main .contador .simply-section div {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin: 5px;
+      background-color: rgba(51, 0, 0, 0.884);
+      width: 65px;
+      border: solid black 2px;
+      border-radius: 10px; }
+  main .texto {
+    margin: 20px 0px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid black 2px;
+    background-color: rgba(51, 0, 0, 0.884); }
+    main .texto div {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+
+header {
+  background-color: rgba(51, 0, 0, 0.884);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../img/rosas.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position-y: bottom;
+  background-position-x: left;
+  animation: header 1.5s 0.5s both; }
+  header h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0px; }
