@@ -2,41 +2,58 @@
   0% {
     height: 100vh; }
   5% {
+    overflow: hidden;
     height: 95vh; }
   10% {
+    overflow: hidden;
     height: 90vh; }
   15% {
+    overflow: hidden;
     height: 85vh; }
   20% {
+    overflow: hidden;
     height: 80vh; }
   25% {
+    overflow: hidden;
     height: 75vh; }
   30% {
+    overflow: hidden;
     height: 70vh; }
   35% {
+    overflow: hidden;
     height: 65vh; }
   40% {
+    overflow: hidden;
     height: 60vh; }
   45% {
+    overflow: hidden;
     height: 55vh; }
   50% {
+    overflow: hidden;
     height: 50vh; }
   55% {
+    overflow: hidden;
     height: 45vh; }
   60% {
+    overflow: hidden;
     height: 40vh; }
   65% {
+    overflow: hidden;
     height: 35vh; }
   70% {
+    overflow: hidden;
     height: 30vh; }
   75% {
+    overflow: hidden;
     height: 25vh; }
   80% {
     height: 20vh;
-    background-image: none; }
+    background-image: none;
+    overflow: hidden; }
   85% {
     height: 15vh;
-    background-image: none; }
+    background-image: none;
+    overflow: hidden; }
   90% {
     height: 10vh;
     background-image: none; }
@@ -211,7 +228,7 @@ header {
   background-size: 300px;
   background-position-y: bottom;
   background-position-x: left;
-  animation: header 1.5s 0.5s both; }
+  animation: header 1.5s 2s both; }
   header h1 {
     color: white;
     display: flex;
