@@ -15,6 +15,9 @@ main {
         align-content: center;
         flex-wrap: wrap;
         flex-direction: row;
+        @include mq-1300px{
+            display: none;
+        }
 
         img {
             width: 90%;

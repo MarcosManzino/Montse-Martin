@@ -89,6 +89,9 @@ main {
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row; }
+    @media (min-width: 1300px) {
+      main .img {
+        display: none; } }
     main .img img {
       width: 90%;
       max-width: 600px;
@@ -234,3 +237,16 @@ header {
     margin: 20px 0px;
     font-size: 50px;
     font-family: 'Dancing Script', cursive; }
+
+.slide {
+  margin: 0px 40vh;
+  border: solid rgba(51, 0, 0, 0.884) 5px;
+  background-color: rgba(51, 0, 0, 0.884);
+  border-radius: 20px;
+  padding: 5px;
+  display: none; }
+  @media (min-width: 1300px) {
+    .slide {
+      display: inline-block; } }
+  .slide img {
+    border-radius: 20px; }

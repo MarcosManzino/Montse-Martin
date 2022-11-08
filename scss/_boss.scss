@@ -1,0 +1,14 @@
+.slide{
+    margin: 0px 40vh;
+    border: solid $color1 5px;
+    background-color: $color1;
+    border-radius: 20px;
+    padding: 5px;
+    display: none;
+    @include mq-1300px{
+        display: inline-block;
+    }
+    img{
+        border-radius: 20px;
+    }
+}
