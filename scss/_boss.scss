@@ -1,12 +1,16 @@
 .slide{
-    margin: 0px 40vh;
+    margin: 0px 10vh;
     border: solid $color1 5px;
     background-color: $color1;
     border-radius: 20px;
     padding: 5px;
-    display: none;
+    
+    @include mq-900px{
+        margin: 0px 30vh;
+    }
     @include mq-1300px{
         display: inline-block;
+        margin: 0px 40vh;
     }
     img{
         border-radius: 20px;

@@ -13,3 +13,25 @@ body{
         background-size: 200vh;
     }
 }
+main{
+    .titulo{
+        width: 80%;
+        text-align: center;
+        
+    
+        p{
+            background-color: $color1;
+            border: $bordes;
+            padding: 5px;
+            border-radius: 20px;
+            font-size: 40px;
+
+        }
+    }
+}
+.apa{
+    @include mq-900px{
+        display: inline !important;
+        font-size: 30px;
+    }
+}
