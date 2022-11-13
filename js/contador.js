@@ -8,7 +8,7 @@ simplyCountdown('#cuenta', {
     words: { //words displayed into the countdown
         days: { singular: 'day', plural: 'dias' },
         hours: { singular: 'hour', plural: 'horas' },
-        minutes: { singular: 'minute', plural: 'mnutos' },
+        minutes: { singular: 'minute', plural: 'minutos' },
         seconds: { singular: 'second', plural: 'segundos' }
     },
     plural: true, //use plurals
